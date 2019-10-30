@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Image Gallery</title>
+    <style>
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 100px;
+    }
+
+    a{
+        text-decoration: none;
+    }
+
+    li{
+        list-style: none;
+    }
+    </style>
+</head>
+<body>
+    <div>
+    <h1>Snapshots</h1>
+    <ul>
+        <li><a onclick="showPic(this);return false" href="./images/u=2170225557,758070829&fm=26&gp=0.jpg" >runcart</a></li>
+        <li><a onclick="showPic(this);return false" href="./images/u=3033817140,336505456&fm=26&gp=0.jpg">butterfly</a></li>
+        <li><a onclick="showPic(this);return false" href="./images/u=3209370120,2008812818&fm=26&gp=0.jpg">panda</a></li>
+        <li><a onclick="showPic(this);return false" href="./images/下载 (1).jpg">sunflower</a></li>
+        <li><a onclick="showPic(this);return false" href="./images/下载 (2).jpg">wolf</a></li>
+        <li><a onclick="showPic(this);return false" href="./images/下载.jpg">airship</a></li>
+    </ul>
+    <img id="placeholder" src="images/placeholder.gif" alt="my image gallery" />
+
+</div>
+
+<script type="text/javascript" src="./script/showPic.js" ></script>
+</body>
+</html>
